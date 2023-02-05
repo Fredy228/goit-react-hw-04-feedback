@@ -24,9 +24,7 @@ export const App = () => {
     }
   }
 
-   const countTotalFeedback = () => {
-    return (good + bad + neutral);
-  }
+   const countTotalFeedback = () => (good + bad + neutral);
   
   const countPositiveFeedbackPercentage = () => {
     if(good > 0) {
